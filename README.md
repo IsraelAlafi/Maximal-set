@@ -1,19 +1,17 @@
 # Maximal-set
 data structure that manages a set of items with their corresponding integer values,
 
-API:
+# API:
 
 1. add(item)​: Adds the item to the collection (with a value 1), or increments the value if it already exists in the collection.
 
-2. remove(item)​: Removes the item from the collection. Returns true if and only if the item
-
-was found and removed.
+2. remove(item)​: Removes the item from the collection. Returns true if and only if the item was found and removed.
 
 3. getValue(item) : ​Returns the current value of a given item.
 
 4. getMaxValues() : ​Returns the set of items having the maximum value.
 
-Example:
+# Example:
 
 Assuming the following sequence of calls (on string items in this case):
 
@@ -30,7 +28,7 @@ add(”a”)
 A subsequent call to getMaxValues() should return {“a”,”b”}, since both “a” and “b” have a value of 2, which is maximal.
 
 
-
+# Simulator
 The simulator allows running a sequence of random add(..) actions, and then calls getMaxValues().
 
 Important notes:
